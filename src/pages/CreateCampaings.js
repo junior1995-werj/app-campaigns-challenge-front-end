@@ -53,7 +53,7 @@ const CreateCampaings = () => {
       <form onSubmit={handleSubmit}>
         <div class="card">
           <div class="card.body">
-            <h3>Id da empresa Anunciante</h3>
+            <h3>Id da empresa anunciante</h3>
             <input type="text" id="id_advertiser" class="form-control" value={_id}/>
             <h3>Tipo de conversão</h3>
             <select class="form-control" id="conversion_type" onChange={handleChangeConversionType}>
@@ -62,7 +62,7 @@ const CreateCampaings = () => {
               <option value="CPC">CPC</option>
               <option value="CPI">CPI</option>
             </select>
-            <h3>nome da Campanha</h3>
+            <h3>Nome da campanha</h3>
             <input type="text" id="name_campaign" class="form-control" />
             <h3>Briefing</h3>
             <textarea  type="text" id="briefing" class="form-control"></textarea>
